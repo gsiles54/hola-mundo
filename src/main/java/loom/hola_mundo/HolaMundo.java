@@ -5,8 +5,8 @@ Clase Hola Mundo para Desafio Loom.
 */
 public class HolaMundo {
 	/**Se encarga de concatenar el nombre a un saludo y devolver el String.
-	 * @param persona
-	 * @return saludo
+	 * @param persona Nombre de la persona.
+	 * @return saludo Saludo concatenado.
 	 */
 	public String saludar(final String persona) {
 		StringBuilder saludo = new StringBuilder();
