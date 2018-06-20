@@ -1,18 +1,14 @@
 package loom.hola_mundo;
 
 /**
- * Clase Hola Mundo para Desafio Loom
- * 
- * @author Gabriel
- *
+  Clase Hola Mundo para Desafio Loom.
+  @author Gabriel
  */
 public class HolaMundo {
 	/**
-	 * Metodo que recibe como parametro un String con el nombre de una persona Se
-	 * encarga de concatenar el nombre a un saludo y devolver el String
-	 * 
-	 * @param persona
-	 * @return
+	  Se encarga de concatenar el nombre a un saludo y devolver el String.
+	  @param persona
+	  @return saludo
 	 */
 	public String saludar(final String persona) {
 		StringBuilder saludo = new StringBuilder();
